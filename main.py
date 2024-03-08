@@ -11,7 +11,7 @@ def add(num1, num2):
     result = num1 + num2
     return f'The sum of {num1} and {num2} is {result}'
 
-@app.route('/substract/<int:num1>/<int:num2>')
+@app.route('/subtract/<int:num1>/<int:num2>')
 def substract(num1, num2):
     result = num1 - num2
     return f'The difference of {num1} and {num2} is {result}'
